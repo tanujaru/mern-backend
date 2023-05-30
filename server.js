@@ -2,9 +2,9 @@ const express = require("express")
 require('dotenv').config();
 const mongoose = require('mongoose');
 const cors = require('cors')  
- const Place = require("./mern-finall-project-back/models/place")
-const placeData = require("./mern-finall-project-back/views/data")
-const placeController = require("./mern-finall-project-back/controllers/place")
+ const Place = require("./models/place")
+const placeData = require("./views/data")
+const placeController = require("./controllers/place")
 
 
 const app = express();
